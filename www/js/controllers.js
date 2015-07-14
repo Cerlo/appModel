@@ -31,7 +31,7 @@ app.controller('DashCtrl', function($scope, $rootScope, $ionicUser, $ionicPush, 
     }).catch(function (err) {
       console.log(err);
     });
-/*
+
 // Identifies a user with the Ionic User service
   $scope.identifyUser = function() {
     console.log('Ionic User: Identifying with Ionic User service');
@@ -82,7 +82,7 @@ app.controller('DashCtrl', function($scope, $rootScope, $ionicUser, $ionicPush, 
       //Save the device token, if necessary
       $loginService.setDeviceToken(deviceToken)
     });
-  };*/
+  };
 
 
   /* ------------------------------
