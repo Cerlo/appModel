@@ -1,0 +1,67 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+
+/* --
+==================================================
+	> Background general
+==================================================
+-- */
+.scroll-content{
+	background-color: black;
+}
+
+/* --
+==================================================
+	> Cadre de contenu
+==================================================
+-- */
+
+/*********** Header contenu ***********/
+.item-divider{
+	background-color: pink;
+}
+
+/*********** Corp du contenu ***********/
+.item.item-body{
+	background-color: #783131;
+	color: black;
+}
+
+/*********** Liens ***********/
+.item.item-body a{
+	background-color: #783131;
+	color: black;
+}
+
+/*********** inputs ***********/
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]{
+	background-color: #783131;
+	width: 100%;
+	color: black;
+}
+
+
+
+
+/* --
+==================================================
+	> Menu (bas)
+==================================================
+-- */
+
+/*********** Conteneur ***********/
+.tabs{
+	background-color: #fff;
+}
+
+/*********** Icone Active ***********/
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated{
+	color: red;
+}
+
+/*********** Icone passive ***********/
+ion-tabs.tabs-color-active-positive .tab-item {
+	color: #222;
+}

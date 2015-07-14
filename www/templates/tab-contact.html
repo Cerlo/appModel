@@ -1,0 +1,67 @@
+<ion-view view-title="Contact">
+
+  <ion-content class="padding">
+  <ion-refresher on-refresh="doRefresh()"
+                     pulling-text="Pull to re-load..."
+                     refreshing-text="Re-Load!">
+                     
+  </ion-refresher>
+    <h1></h1>
+          <div class="item item-divider">Nom de l'entreprise</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-location"></i>
+                <input type="text" ng-model="coName" ng-disabled="true" />
+            </div>
+          </div>
+        </div>
+          <div class="item item-divider">Description</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-location"></i>
+                <input type="text" ng-model="coDescription" ng-disabled="true" />
+            </div>
+          </div>
+        </div> <div class="item item-divider">Adresse</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-location"></i>
+                <input type="text" ng-model="coAddress" ng-disabled="true" />
+            </div>
+          </div>
+        </div>
+        <div class="item item-divider">Téléphone</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-ios-telephone"></i>
+                <input type="text" ng-model="coTel" ng-disabled="true" />
+            </div>
+          </div>
+        </div>
+        <div class="item item-divider">E-mail</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-at"></i>
+                <input type="text" ng-model="coEMail" ng-disabled="true" />
+            </div>
+          </div>
+        </div>
+
+        <div class="item item-divider">Social</div>
+        <div class="item item-body">
+          <div>
+            <div class="item item-icon-left">
+              <i class="icon ion-ios-people"></i>
+                <input type="text" ng-model="coSocial" ng-disabled="true" />
+            </div>
+          </div>
+        </div>
+      
+
+  </ion-content>
+</ion-view>

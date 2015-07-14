@@ -1,0 +1,35 @@
+<ion-view view-title="App Model">
+  <ion-content class="padding-20">
+  <ion-refresher on-refresh="doRefresh()"
+                     pulling-text="Pull to re-load..."
+                     refreshing-text="Re-Load!">
+                     
+      </ion-refresher>
+    <div class="list card">
+      <div class="item item-calm">{{ eventTitle }} : {{ nexteventName }}</div>
+      <div class="item item-body">
+            <h2>Temps restant avant la fin de l'évènement : </h2>
+            <div id="countdown18" class="ClassyCountdownDemo"></div>
+            <h3 style="margin-top : 0px">{{ eventIsOver }}</h3>
+      </div>
+      <div class="item item-divider">{{ eventDescription }}</div>
+      <div class="item item-body">
+        <div>
+          {{ nexteventDescription }}
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">{{ coHomeName }}</div>
+      <div class="item item-body">
+        <div>
+          {{ coHomeDescription }}
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </ion-content>
+</ion-view>
