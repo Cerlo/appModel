@@ -22,9 +22,9 @@ app.config(['$ionicAppProvider', function($ionicAppProvider, $ionicUser) {
     // The public API key all services will use for this app
     api_key: 'My_API_KEY',
     // The GCM project number
-    gcm_id: 'GCM_ID'
+    gcm_id: 'GCM_ID',
     // Set the app to use development pushes
-    //dev_push: true
+    dev_push: false
 
   });
 }])
