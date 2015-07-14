@@ -18,11 +18,11 @@ app.config(['$ionicAppProvider', function($ionicAppProvider, $ionicUser) {
   // Identify app
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
-    app_id: '71c1f442',
+    app_id: 'My_API_ID',
     // The public API key all services will use for this app
-    api_key: '9ce5b0622773bbf28e021d56eb15677c1a67c65363576b68',
+    api_key: 'My_API_KEY',
     // The GCM project number
-    gcm_id: '680567397606'
+    gcm_id: 'GCM_ID'
     // Set the app to use development pushes
     //dev_push: true
 
